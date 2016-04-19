@@ -1,0 +1,36 @@
+{
+  "name": "chilean_v1.0",
+  "version": "1.0.0",
+  "description": "Bot app that generates atomatic tweets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elasa/ChileanBot.git"
+  },
+  "keywords": [
+    "bot",
+    "chileanbot",
+    "app",
+    "nodejs",
+    "expressjs",
+    "twitter",
+    "application",
+    "server",
+    "backend"
+  ],
+  "author": "Erik Lasa T.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elasa/ChileanBot/issues"
+  },
+  "homepage": "https://github.com/elasa/ChileanBot#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment-timezone": "^0.5.3",
+    "node-twitterbot": "^0.2.2"
+  }
+}
